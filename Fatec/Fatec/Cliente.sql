@@ -1,0 +1,9 @@
+﻿CREATE TABLE Cliente
+(
+ Id				INT IDENTITY	NOT NULL,
+ Cpf			VARCHAR(15)		NOT NULL,
+ Nome			VARCHAR(100)	NOT NULL,
+ DataNascimento DATETIME		NOT NULL,
+ Endereco		VARCHAR(100)	NOT NULL,
+ Cidade			VARCHAR(100)	NOT NULL
+)
